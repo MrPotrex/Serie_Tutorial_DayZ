@@ -16,7 +16,7 @@ title %serverName% batch
 cd "%serverLocation%"
 echo (%time%) %serverName% started.
 ::Launch parameters (edit end: -config=|-port=|-profiles=|-doLogs|-adminLog|-netLog|-freezeCheck|-filePatching|-BEpath=|-cpuCount=|Añadir los mods por parte del server en -servermod y los demas en -mod)
-start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% -cpuCount=%serverCPU% -profiles=modificarnombre -dologs -adminlog -netlog -freezecheck "-servermod=""-mod="
+start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% -cpuCount=%serverCPU% -profiles=configmods -dologs -adminlog -netlog -freezecheck "-servermod=""-mod="
 ::Time in seconds before kill server process (14400 = 4 hours)
 timeout 14390
 taskkill /im DayZServer_x64.exe /F
