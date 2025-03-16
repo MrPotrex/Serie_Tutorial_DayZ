@@ -1,7 +1,7 @@
 @echo off
 :start
 ::Server name 
-set serverName=Modificar
+set serverName=%serverName%
 ::Server files location (Viene por defecto, pero si os falla teneís que buscar donde habeís puesto el server)
 set serverLocation="C:\Program Files (x86)\Steam\steamapps\common\DayZServer"
 ::Server Port
