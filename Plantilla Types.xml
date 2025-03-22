@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+[DOCUMENTACIÓN EN EL DISCORD DE MRPOTREX | DISCORD: https://discord.gg/HpwGWadKjM]
+VIDEO DEL TUTORIAL DE TYPES: https://youtu.be/kiE6wELSb0E
+-->
+<types>
+
+    <type name="Classname">
+        <nominal>5</nominal>
+        <lifetime>10800</lifetime>
+        <restock>1800</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+        <value name="Tier1"/>
+    </type>
+
+</types>
